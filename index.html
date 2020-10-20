@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>National Voter Service Demo Portal</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="row">
+        <a href="#"><img class="flag" src="./images/flag.png" /></a>
+        <h1 class="hindi">राष्ट्रीय मतदान सेवा <br />डेमो पोर्टल</h1>
+        <h1 class="english">
+          NATIONAL VOTERS' SERVICES <br />
+          DEMO PORTAL
+        </h1>
+        <a href="#"><img class="vote" src="./images/vote.png" /></a>
+      </div>
+    </header>
+    <section class="font-align">
+      <div class="font-setting">
+        <button class="btn1 btn-secondary" type="button">A+</button>
+        <button class="btn1 btn-secondary" type="button">A-</button>
+        <span class="lang"
+          ><small>Select Language:</small>
+          <select id="btn2" class="btn2 btn-secondary dropdown-toggle">
+            <option>Hindi</option>
+            <option>English</option>
+          </select>
+        </span>
+      </div>
+      <div>
+        <h3 class="note">
+          Note: Fields marked with asterisks ( <span class="star">*</span> ) are
+          mandatory
+        </h3>
+      </div>
+    </section>
+    <section class="main-form">
+      <div class="container">
+        <div class="form-heading">
+          <p>
+            Type 6<br />
+            [See rule 13(1) and 26]
+          </p>
+        </div>
+
+        <div class="form-description">
+          <p>
+            Application for inclusion of name in the electoral roll for the
+            first time due to the transfer of voter or any other<br />
+            constituency from any one constituency
+          </p>
+        </div>
+      
+
+      <div class="service">
+        
+        <p class="para1">In service</p>
+        <p class="para2">Electoral Registration Officer,</p>
+        <div>
+        <p class="para3">State<span class="star">*</span><span id="btn3"><select class="btn3 btn-secondary dropdown-toggle ml-3 "> <option>Select</option></select></span></p>
+        <p  class="para4">District<span id="btn4"> <select class="btn4 btn-secondary dropdown-toggle ml-2"> <option>Select</option></select></span></p>
+      </div>
+      <p class="para5">
+        Legislative Assembly / Parlimentary <span id="btn4"><select class="btn4 btn-secondary dropdown-toggle ml-2"> <option>Select</option></select></span>
+        <br>
+        constituency<span class="star">*</span> </p>
+        <p class="para6">I request that my name be included in electoral rolls for all the aforesaid areas.</p>
+        <ul class="radio">
+          <li><input type="radio"  name="voter" value="First time voter"><span class="rdo ml-2"> First time voter</span></li>
+         <li><input  type="radio" name="voter" value="to transfer from other meeting areas"><span class="rdo ml-2"> Due to transfer from other meeting areas.</span></li> 
+        </ul>
+        <p class="mt-5 ml-3">Below are specifications in support of my claim to be included in the electoral rolls.</p>
+      </div><br>
+      <div class="specification">
+        <h4 >Mandatory specifications</h4>
+      </div>
+      <div class="form-2">
+        <span id="name">(A) Name<span class="star">*</span>
+        <input type="text" class="form-control" placeholder="(In English)">
+        <input type="text" class="form-control" placeholder="(In Regional)">
+        <button class="key"><img src="./images/keyboard.png" style="width: 20px;height: 20px;background-color: black;"></button>
+        
+      </div>
+      <div class="form-3">
+        <span id="name">(B) Surname (if any) <span class="star">*</span>
+        <input type="text" class="form-control" placeholder="(In English)">
+        <input type="text" class="form-control" placeholder="(In Regional)">
+        <button class="key"><img src="./images/keyboard.png" style="width: 20px;height: 20px;background-color: black;"></button>
+        
+      </div>
+      <div class="form-3">
+        <span id="name">(C) Name of the applicant's relative <span class="star">*</span>
+        <input type="text" class="form-control" placeholder="(In English)">
+        <input type="text" class="form-control" placeholder="(In Regional)">
+        <button class="key"><img src="./images/keyboard.png" style="width: 20px;height: 20px;background-color: black;"></button>
+        
+      </div>
+      <div class="form-3">
+        <span id="name">Nickname of the applicant's relative <span class="star">*</span>
+        <input type="text" class="form-control" placeholder="(In English)">
+        <input type="text" class="form-control" placeholder="(In Regional)">
+        <button class="key"><img src="./images/keyboard.png" style="width: 20px;height: 20px;background-color: black;"></button>
+        
+      </div>
+      <div>
+        <p class="para7">(D) Type of the relationship <span class="star">*</span><span id="btn3"><select class="btn3 btn-secondary dropdown-toggle ml-3 "> <option>Select</option></select></span></p>
+      </div>
+      <div>
+        <ul class="radio">
+          <li>
+            <input type="radio"  name="voter" value="First time voter">
+            <span class="rdo ml-2"> (E) Age [on January 1 of the current calender]<span class="star">*</span>
+            <input type="text" value="2019">
+            <select class="btn5 btn-secondary dropdown-toggle ml-2">
+              <option>Year</option> </select>
+            
+            <select class="btn5 btn-secondary dropdown-toggle ml-2">
+              <option>Month</option>
+            </select>
+            
+          </span>
+        </li>
+          <br>Or<br><br>
+         <li>
+           <input  type="radio" name="voter" value="to transfer from other meeting areas"><span class="rdo ml-2">(F) Date of birth (in the form of day/ month/ year) 
+          dd-mm-yyyy <input type="date"><br>(if known)<span class="star">*</span>
+          </span></li> 
+        </ul>
+        <p class="para7">(G) Applicant's gender <span class="star">*</span><span id="btn3"><select class="btn3 btn-secondary dropdown-toggle ml-3 "> <option>Select</option><option>Male</option><option>Female</option></select></span></p>
+      </div><br>
+      <div class="specification">
+        <h4 >(H) Current address, whose applicant is nominally resident</h4>
+      </div>
+
+      <div class="form-2">
+        <span id="name">House no.<span class="star">*</span>
+        <input type="text" class="form-control" placeholder="(In English)">
+        <input type="text" class="form-control" placeholder="(In Regional)">
+        <button class="key"><img src="./images/keyboard.png" style="width: 20px;height: 20px;background-color: black;"></button>
+        
+      </div>
+      <div class="form-3">
+        <span id="name">Street / area / location<span class="star">*</span>
+        <input type="text" class="form-control" placeholder="(In English)">
+        <input type="text" class="form-control" placeholder="(In Regional)">
+        <button class="key"><img src="./images/keyboard.png" style="width: 20px;height: 20px;background-color: black;"></button>
+        
+      </div>
+      <div class="form-3">
+        <span id="name">City / Village:<span class="star">*</span>
+        <input type="text" class="form-control" placeholder="(In English)">
+        <input type="text" class="form-control" placeholder="(In Regional)">
+        <button class="key"><img src="./images/keyboard.png" style="width: 20px;height: 20px;background-color: black;"></button>
+        
+      </div>
+      <div class="form-3">
+        <span id="name">Post Office:<span class="star">*</span>
+        <input type="text" class="form-control" placeholder="(In English)">
+        <input type="text" class="form-control" placeholder="(In Regional)">
+        <button class="key"><img src="./images/keyboard.png" style="width: 20px;height: 20px;background-color: black;"></button>
+        </span>
+      </div>
+      <div class="form-3">
+        <span id="name">Post Office:<span class="star">*</span>
+        <input type="number" class="form-control">
+        </span>
+      </div>
+      <p class="para7">State / Union Territory  <span class="star">*</span><span id="btn3"><select class="btn3 btn-secondary dropdown-toggle ml-3 "> <option>Select</option></select></span></p>
+      <p class="para7">District  <span class="star">*</span><span id="btn3"><select class="btn3 btn-secondary dropdown-toggle ml-3 "> <option>Select</option></select></span></p>
+      
+      <div class="family">
+        <br>
+        <hr>
+        
+        <div class="form-3">
+          <span id="name">Family / Neighbour Epic No.
+          <input type="text" class="form-control">
+          </span>
+        </div>
+      <br>
+      
+      <hr>
+      
+    </div>
+    <div class="specification">
+      <h4 >Optional specialties</h4>
+    </div>
+    <br>
+    <div class="Disability">
+    <p class="para8">(T) Disability (if any)</p><br>
+    <span class="para8">
+      <input type="checkbox"><label>Visual impairment</label>
+      <input type="checkbox"><label>Speech and hearing impairment  </label>
+      <input type="checkbox"><label>Motion disabling </label>
+      <input type="checkbox"><label>other </label>
+      <input type="text">
+    </span>
+    <div class="para8">
+    <span >
+      <label>(Th) Email ID (optional)   </label>
+      <input type="text">
+    </span>
+  </div>
+  <div class="para8 mb-5">
+    <label>(D) mobile number (optional)   +91 </label>
+    <input type="text">
+  </div>
+</div>
+<div class="specification">
+  <h4 id="img" >Upload supporting documents (Supported formats .jpg, .png, .bmp, .jpeg) (max. 2MB)<a id="img1" class=" ml-5 " href="#">List of supported document</a></h4>
+</div>
+<div class="file-1">
+  <label>Your photo<span class="star">*</span></label><br>
+  <input type="file">
+</div>
+<div class="file-2">
+  <label>Age proof<span class="star">*</span></label><br>
+  <span><input type="file">
+    <p>Document type <span class="star">*</span>
+    <select class="btn3 btn-secondary dropdown-toggle ml-3 "> <option>Select</option></select></span>
+</div>
+<div class="file-2">
+  <label>Address proof<span class="star">*</span></label><br>
+  <span><input type="file">
+    <p>Document type <span class="star">*</span>
+    <select class="btn3 btn-secondary dropdown-toggle ml-3 "> <option>Select</option></select></span>
+</div><br>
+
+<div class="specification">
+  <h4 >Declaration</h4>
+</div><br><br>
+<div>
+  <p>I declare I declare that according to my best knowledge and belief<br>
+    I am a citizen of India and of my birth;</p>
+</div>
+<div>
+ <span id="city"> City / Village:  <input type="text"></span>
+</div><br>
+<div>
+  <p class="par1">Select state<span class="star">*</span><span id="btn3"><select class="btn3 btn-secondary dropdown-toggle ml-3 "> <option>Select</option></select></span></p>
+  <p  class="par1">District<span class="star">*</span><span id="btn4"> <select class="btn4 btn-secondary dropdown-toggle ml-2"> <option>Select</option></select></span></p>
+</div>
+<div class="date">
+  <label>Date<span class="star">*</span></label>
+  <input type="date">
+</div>
+<div class="text-1">
+<p>(ii) I am a nominally resident in the address given in the above (date, month, year) above;</p>
+<br>
+<p>I have not applied to include my name in the electoral roll for any other constituency;</p>
+<br>
+<div class="rdo">
+<input type="radio" name="name"><p>(iv) My name has not been already included in the electoral roll for this or any other assembly / parliamentary constituency</p>
+</div><br>
+<p class="rdo">Or</p>
+<br>
+<div class="rdo-1">
+  <span id="roll"><input type="radio" name="name"><p>My name would have been included in electoral rolls of the State's constituency, in which I was already residing in the address mentioned</span><br> below, and if so, then I request that it be removed from that electoral roll. Go.
+  </p>
+  </div>
+</div>    
+<br>
+<hr>
+<br>
+<br>
+<div class="loc">
+  <span><label>Location<span class="star">*</span></label>
+  <input type="text">
+<label class="loc">date<input type="date"></label></span>
+</div>
+<br>
+<p>I am afraid that the statement or declaration, which is false, to whom I know it or believe that it is false or I do not believe in being true, the People's<br> Representation Act, 1950 (43 of 1950 ) Is punishable under section 31</p>
+<div class="cap">
+  <label>Captcha<img src="./images/captcha.png" style="width: 150px;margin-left: 2px; " ><img src="./images/captcha2.png" style="width: 20px;height: 20px;padding-left: 5px;"></label>
+  <i class="fas fa-redo"></i><input type="text" class="ml-3">
+</div>
+<div class="btn-green">
+  <button class="btnn btn-success ">Reset</button>
+  <button class="btnn btn-success ">Submit</button>
+</div>
+</div>
+<footer>
+  <p>Copyright © 2019 Suven Consultants and Technology Pvt. Ltd.</p>
+</footer>
+    </section>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
